@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Programming Fundamentals</title>
+    <meta name="description" content="A website about programming fundamentals.">
+    <meta name="keywords" content="programming, fundamentals, HTML, CSS, JavaScript">
+    <meta name="author" content="Dr Melchisedec Bankole">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Dr. Melchisedec Bankole: Technical Writing</h1>
+        <p id=ds>Discover your coding SuperPower</p>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="main-content">
+            <article>
+                <h2>HTML &lt;meta&gt; Tag</h2>
+                <p>The &lt;meta&gt; tag serves to define metadata within an HTML document, which essentially refers to information about the data itself.</p>
+
+                <p>Usually residing within the &lt;head&gt; element, &lt;meta&gt; tags handle crucial details like character encoding, page description, keywords, document authorship, and viewport settings.</p>
+
+                <p>While metadata remains invisible on the webpage, its machine-readable nature proves invaluable. Browsers utilize this data for content display and page reloads, while search engines rely on it for keyword identification, and various web services benefit from its structured information.</p>
+
+                <p>Through the &lt;meta&gt; tag, web designers can actively manage the viewport—the visible area of a webpage for users. An example illustrating this control is seen in the "Setting The Viewport" section below.</p>
+
+                <p>In an HTML document, metadata is contained within the &lt;head&gt; section. It includes essential information about the webpage's content and presentation.</p>
+
+                <p>For instance:</p>
+
+                <pre><code>&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="description" content="Free Web tutorials"&gt;
+  &lt;meta name="keywords" content="HTML, CSS, JavaScript"&gt;
+  &lt;meta name="author" content="John Doe"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;/head&gt;
+                </code></pre>
+
+                <p>These &lt;meta&gt; tags define crucial details such as character encoding, a brief description of the content, relevant keywords for search engines, the author's name, and instructions for the viewport to ensure proper display on various devices.</p>
+
+                <p>Here's a concise breakdown of the attributes for the &lt;meta&gt; tag in HTML:</p>
+
+                <ul>
+                    <li><strong>charset:</strong> Specifies the character encoding for the HTML document.</li>
+                    <li><strong>content:</strong> Defines the value associated with the <code>http-equiv</code> or <code>name</code> attribute.</li>
+                    <li><strong>http-equiv:</strong> Includes values such as <code>content-security-policy</code>, <code>content-type</code>, <code>default-style</code>, and <code>refresh</code>, providing an HTTP header for the information or value of the <code>content</code> attribute.</li>
+                    <li><strong>name:</strong> Contains values like <code>application-name</code>, <code>author</code>, <code>description</code>, <code>generator</code>, <code>keywords</code>, and <code>viewport</code>, specifying specific metadata properties for the webpage.</li>
+                </ul>
+
+                <p><strong>Global Attributes:</strong> The &lt;meta&gt; tag also supports the Global Attributes in HTML.</p>
+
+                <p><strong>More Examples:</strong></p>
+
+                <p>Define keywords for search engines:</p>
+                <pre><code>&lt;meta name="keywords" content="HTML, CSS, JavaScript"&gt;</code></pre>
+
+                <p>Define a description of your web page:</p>
+                <pre><code>&lt;meta name="description" content="Free Web tutorials for HTML and CSS"&gt;</code></pre>
+
+                <p>Define the author of a page:</p>
+                <pre><code>&lt;meta name="author" content="Dr Melchisedec Bankole"&gt;</code></pre>
+
+                <p>Refresh document every 30 seconds:</p>
+                <pre><code>&lt;meta http-equiv="refresh" content="30"&gt;</code></pre>
+
+                <h2>Setting the Viewport</h2>
+
+                <p>The viewport is the user's visible area of a web page. It varies with the device - it will be smaller on a mobile phone than on a computer screen.</p>
+
+                <p>You should include the following &lt;meta&gt; element in all your web pages:</p>
+
+                <pre><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code></pre>
+
+                <p>This gives the browser instructions on how to control the page's dimensions and scaling.</p>
+
+                <p>The <code>width=device-width</code> part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).</p>
+
+                <p>The <code>initial-scale=1.0</code> part sets the initial zoom level when the page is first loaded by the browser.</p>
+            </article>
+            
+<aside class="sidebar">
+    <h3>Responsive Web Development</h3>
+    <ul>
+        <li><a href="#">Responsive Design Principles</a></li>
+        <li><a href="#">Media Queries and Viewports</a></li>
+        <li><a href="#">Flexible Grid Systems</a></li>
+        <!-- Links to related articles or additional resources -->
+    </ul>
+</aside>
+
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Dr Melchisedec Bankole</p>
+        <!-- Additional footer content or links -->
+    </footer>
+</body>
+</html>
