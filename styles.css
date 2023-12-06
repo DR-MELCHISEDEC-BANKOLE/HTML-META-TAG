@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: #FFCC00;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+#ds{
+    padding-bottom: 15px;
+    color: #FFCB05;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+article {
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Media query */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header {
+        text-align: center;
+    }
+
+    .main-content {
+        display: block;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* Navigation styles for smaller screens */
+    nav {
+        text-align: center;
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: burlywood;
+        font-size: 16px;
+    }
+
+    /* Adjusting font sizes for smaller screens */
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+        
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    /* Additional styles specific for smaller screens */
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* Adjusting font sizes for small devices */
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    /* Navigation styles for small devices */
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-right: 15px; /* Adjust spacing between navigation items */
+    }
+
+    nav a {
+        text-decoration: none;
+        color: burlywood;
+        font-size: 16px;
+    }
+
+    /* Additional styles specific for small devices */
+}
+
+/*
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px 0;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+*/
